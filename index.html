@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="recursos/css/style.css">
+    <link rel="stylesheet" href="recursos/css/styleSideBar.css">
+    <link rel="stylesheet" href="recursos/css/inicio/styleIndex.css">
+    <link rel="stylesheet" href="recursos/css/inicio/styleCarrusel.css">
+    <title>Kork3d</title>
+    <link rel="shortcut icon" href="recursos/imagenes/logos/marca/logoLampara-chico.svg" type="image/x-icon">
+    <script defer src="recursos/js/theme.js"></script>
+
+</head>
+
+<body>
+    <header >
+            <div class="logo" id="contenedor-logo">
+                <a href="index.html"><img src="recursos/imagenes/logos/marca/logoLampara-chico.svg" alt=""
+                        width="50px"></a>
+            </div>
+            <nav class="sideBar">
+                <div class="padreSideBar">
+                    <ul>
+                        <li>
+                            <a href="index.html"><img src="recursos/imagenes/logos/sidebar/bx-home.svg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="catalogo.html"><img src="recursos/imagenes/logos/sidebar/bx-shopping-bag.svg"
+                                    alt=""></a>
+                        </li>
+                        <li>
+                            <a href="carrito.html"><img src="recursos/imagenes/logos/sidebar/bx-cart.svg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="contacto.html"><img src="recursos/imagenes/logos/sidebar/bx-message-dots.svg"
+                                    alt=""></a>
+                        </li>
+                        <li>
+                            <a href="" id="boton-tema"><img id="boton-imagen"
+                                    src="recursos/imagenes/logos/sidebar/bx-moon.svg" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="carrusel">
+                <input type="radio" name="slider" id="s1" class="slider">
+                <input type="radio" name="slider" id="s2" class="slider">
+                <input type="radio" name="slider" id="s3" class="slider" checked>
+                <input type="radio" name="slider" id="s4" class="slider">
+                <input type="radio" name="slider" id="s5" class="slider">
+
+                <div class="imagenes">
+                    <label for="s1" id="slide1">
+                        <a href="catalogo.html"><img
+                                src="recursos/imagenes/inicio/carrusel/750_750-00DD1CMEL50(1)_1.jpg"
+                                alt="Lampara 1"></a>
+                    </label>
+                    <label for="s2" id="slide2">
+                        <a href="catalogo.html"><img
+                                src="recursos/imagenes/inicio/carrusel/D_NQ_NP_714308-MLA71480350186_092023-O - copia.webp"
+                                alt="Lampara 2"></a>
+                    </label>
+                    <label for="s3" id="slide3">
+                        <a href="catalogo.html"><img
+                                src="recursos/imagenes/inicio/carrusel/D_NQ_NP_778900-MLA69548236403_052023-O.webp"
+                                alt="Lampara 3"></a>
+                    </label>
+                    <label for="s4" id="slide4">
+                        <a href="catalogo.html"><img
+                                src="recursos/imagenes/inicio/carrusel/kos-negro-d995f00e2828dce0da17131115863373-480-0 - copia.jpg"
+                                alt="Lampara 4"> </a>
+                    </label>
+                    <label for="s5" id="slide5">
+                        <a href="catalogo.html"><img src="recursos/imagenes/inicio/carrusel/lampara1.webp"
+                                alt="Lampara 5"></a>
+                    </label>
+                </div>
+
+                <div class="pagination">
+                    <label for="s1" id="pag1"></label>
+                    <label for="s2" id="pag2"></label>
+                    <label for="s3" id="pag3"></label>
+                    <label for="s4" id="pag4"></label>
+                    <label for="s5" id="pag5"></label>
+                </div>
+
+            </div>
+            <section class="informacion">
+                <article class="seccionempresa">
+                    <div class="infoempresa">
+                        <h1>KORK</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, voluptatem architecto,
+                            temporibus tempora commodi aliquam quam ipsam impedit minima perspiciatis vel sequi cum sed
+                            autem nesciunt odit quibusdam. Quas, eveniet!</p>
+                    </div>
+                </article>
+                <article class="seccionproductos1">
+                    <div class="infoproductos1">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque eos velit ipsam eaque magnam
+                            sunt ipsa fugiat repellendus consectetur, amet harum exercitationem numquam quaerat, porro
+                            cumque commodi, facere labore perferendis?</p>
+                    </div>
+                    <div class="imagenproductos1">
+                        <img src="recursos/imagenes/inicio/info/impresora.png" alt="">
+                    </div>
+                </article>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li>
+                <a href="">
+                    <img src="recursos/imagenes/logos/footer/bxl-instagram.svg" alt="Instagram">
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="recursos/imagenes/logos/footer/bx-phone.svg" alt="Telefono">
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="recursos/imagenes/logos/footer/bx-envelope.svg" alt="Email">
+                </a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>

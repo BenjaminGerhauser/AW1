@@ -1,0 +1,91 @@
+/*estilos generales*/
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.container h1{
+    display: flex;
+    justify-content: center;
+    color: var(--color);
+}
+
+.formulario-contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.formulario-contacto input{
+    min-height: 45px;
+    width: 65%;
+    border-radius: 15px;
+    border: none;
+    background: #302f2f;
+    color: white;
+}
+
+.formulario-contacto textarea {
+    margin-bottom: 15px;
+    border-radius: 20px;
+    border: none;
+    min-height: 300px;
+    width: 65%;
+    background: #302f2f;
+    color: white;
+    text-align:start;
+}
+
+.botones button {
+    width: 15%;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+    font-weight: 600;
+    color: white;
+    background: #302f2f;
+}
+
+.botones{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    border: none;
+    width: 60%;
+    height: 7%;
+}
+
+.formulario-contacto label{
+    width: 65%;
+    font-size: x-large;
+    text-align: left;
+    color: var(--color);
+}
+
+
+ /* responsive */
+@media (width < 450px){
+    .formulario-contacto textarea, .formulario-contacto input{
+        width: 85%;
+    }
+    .formulario-contacto label{
+        text-align: center;
+    }
+    .botones{
+        width: 85%;
+        height: 30%;
+    }
+    .botones button{
+        height: 40%;
+        width: 30%;
+    }
+}

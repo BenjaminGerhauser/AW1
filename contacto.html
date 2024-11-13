@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="recursos/css/style.css">
+    <link rel="stylesheet" href="recursos/css/styleSideBar.css">
+    <link rel="stylesheet" href="recursos/css/contacto/styleContacto.css">
+    <title>Kork3d</title>
+    <link rel="shortcut icon" href="recursos/imagenes/logos/marca/logoLampara-chico.svg" type="image/x-icon">
+    <script defer src="recursos/js/theme.js"></script>
+
+    
+</head>
+<body>
+    <header >
+        <div class="logo" id="contenedor-logo">
+            <a href="index.html"><img src="recursos/imagenes/logos/marca/logoLampara-chico.svg" alt=""
+                    width="50px"></a>
+        </div>
+        <nav class="sideBar">
+            <div class="padreSideBar">
+                <ul>
+                    <li>
+                        <a href="index.html"><img src="recursos/imagenes/logos/sidebar/bx-home.svg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="catalogo.html"><img src="recursos/imagenes/logos/sidebar/bx-shopping-bag.svg"
+                                alt=""></a>
+                    </li>
+                    <li>
+                        <a href="carrito.html"><img src="recursos/imagenes/logos/sidebar/bx-cart.svg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="contacto.html"><img src="recursos/imagenes/logos/sidebar/bx-message-dots.svg"
+                                alt=""></a>
+                    </li>
+                    <li>
+                        <a href="" id="boton-tema"><img id="boton-imagen"
+                                src="recursos/imagenes/logos/sidebar/bx-moon.svg" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h1>Contacto</h1>
+            <form action="contacto.html" method="post" class="formulario-contacto">
+                <label for="nombre"> Nombre </label>
+                <input type="text" name="Nombre" id="nombre" placeholder="Complete el campo" required>
+                <label for="email">Email</label>
+                <input type="email" name="Email" id="Id-Email" placeholder="Complete el campo" required>
+                <label for="telefono">
+                    Telefono
+                </label>
+                <input type="tel" name="Telefono" id="telefono" placeholder="Complete el campo" requireds>
+                <label for="contacto">
+                    Contacto
+                </label>                
+                <textarea name="Contacto" id="contacto"></textarea>
+                <div class="botones">
+                    <button type="submit" class="Boton-Enviar">Enviar</button>
+                    <button type="submit" class="Boton-Cancelar">Cancelar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li>
+                <a href="">
+                    <img src="recursos/imagenes/logos/footer/bxl-instagram.svg" alt="Instagram">
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="recursos/imagenes/logos/footer/bx-phone.svg" alt="Telefono">
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="recursos/imagenes/logos/footer/bx-envelope.svg" alt="Email">
+                </a>
+            </li>
+        </ul>
+    </footer>
+    
+
+</body>
+</html>

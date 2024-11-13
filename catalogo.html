@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="recursos/css/catalogo/styleCatalogo.css">
+    <link rel="stylesheet" href="recursos/css/style.css">
+    <link rel="stylesheet" href="recursos/css/styleSideBar.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kork3d</title>
+    <link rel="shortcut icon" href="recursos/imagenes/logos/marca/logoLampara-chico.svg" type="image/x-icon">
+    <script type="module" src="recursos/js/catalogo/principalCatalogo.js"></script>
+    <script type="module" src="recursos/js/catalogo/funcionesCatalogo.js"></script>
+    <script defer src="recursos/js/theme.js"></script>
+
+
+</head>
+
+<body>
+    <header >
+        <div class="logo" id="contenedor-logo">
+            <a href="index.html"><img src="recursos/imagenes/logos/marca/logoLampara-chico.svg" alt=""
+                    width="50px"></a>
+        </div>
+        <nav class="sideBar">
+            <div class="padreSideBar">
+                <ul>
+                    <li>
+                        <a href="index.html"><img src="recursos/imagenes/logos/sidebar/bx-home.svg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="catalogo.html"><img src="recursos/imagenes/logos/sidebar/bx-shopping-bag.svg"
+                                alt=""></a>
+                    </li>
+                    <li>
+                        <a href="carrito.html"><img src="recursos/imagenes/logos/sidebar/bx-cart.svg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="contacto.html"><img src="recursos/imagenes/logos/sidebar/bx-message-dots.svg"
+                                alt=""></a>
+                    </li>
+                    <li>
+                        <a href="" id="boton-tema"><img id="boton-imagen"
+                                src="recursos/imagenes/logos/sidebar/bx-moon.svg" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h1>Catalago</h1>
+            
+            <div class="catalogo" id="contenedorCatalogo">
+                
+            </div>
+    
+            <button class="botonFiltro" id="btn-abrir-filtro">
+                <img src="recursos/imagenes/catalogo/bx-filter-alt.svg" alt="">
+            </button>
+            <div class="filtros" id="filtro">
+                <h1>Filtros</h1>        
+                <div class="filtroPrecio">
+                    <span>Precio:</span>
+                    <input type="number" name="" id="precio-producto">
+                </div>
+                <div class="filtroColor">
+                    <span>Color: </span>
+                    <input type="checkbox" name="" id="negro">
+                    <input type="checkbox" name="" id="blanco">
+                    <input type="checkbox" name="" id="beige">
+                    <input type="checkbox" name="" id="marron">
+                </div>
+                <div class="filtroCat">
+                    <span>Categoria</span>
+                    <div class="categoria">
+                        <label for="lampPie">Lamparas de pie</label>
+                        <input type="radio" name="tipoLamp" id="lampPie">
+                    </div>
+                    <div class="categoria">
+                        <label for="lampTecho">Lamparas de techo</label>
+                        <input type="radio" name="tipoLamp" id="lampTecho">
+                    </div>
+                    <div class="categoria">
+                        <label for="lampTecho">Ver todo</label>
+                        <input type="radio" name="tipoLamp" id="verTodo">
+                    </div>
+                </div>
+                <button id="botonLimpiar">
+                    Limpiar
+                </button>
+            </div>
+            
+            <div class="vistaProducto" id="verProducto">
+                <h2 id="nombre-ver-producto">NombreProducto</h2>
+                <button id="cerrar-vista"><img src="recursos/imagenes/catalogo/cerrar.png" alt=""></button>
+                <img src="recursos/imagenes/catalogo/lampara1.webp" alt="" id="imagen-ver-producto">
+                <div class="opciones">
+                    <div class="opcionColor">
+                        <span>Color: </span>
+                        <input type="checkbox" name="" id=""><input type="checkbox" name="" id=""><input
+                            type="checkbox" name="" id=""><input type="checkbox" name="" id="">
+                    </div>
+                    <div class="opcionCantidad">
+                        <span>Cantidad: </span>
+                        <input type="number" name="" id="cantidad-producto" value="1">
+                    </div>
+                    <button>Cancelar</button>
+                    <button id="btn-agregar" data-id = "">Comprar</button>
+                </div>
+                <div class="descripcionProducto">Descripcion</div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li>
+                <a href="">
+                    <img src="recursos/imagenes/logos/footer/bxl-instagram.svg" alt="Instagram">
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="recursos/imagenes/logos/footer/bx-phone.svg" alt="Telefono">
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="recursos/imagenes/logos/footer/bx-envelope.svg" alt="Email">
+                </a>
+            </li>
+        </ul>
+
+    </footer>
+</body>
+
+</html>
